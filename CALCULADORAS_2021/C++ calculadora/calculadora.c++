@@ -7,8 +7,6 @@ int main(){
     int op;
     float num1, num2;
     
-    cout << "Olá, bem vindo a calculadora feita em C++!" << endl;
-    
     cout << "Qual o primeiro número?" << endl;
     cin >> num1;
 
