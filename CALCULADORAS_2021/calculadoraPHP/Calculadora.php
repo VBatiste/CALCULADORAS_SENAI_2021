@@ -1,7 +1,3 @@
-<img class="fundo" src="Css/fundo.png" alt="fundo">
-    <link rel="stylesheet" type="text/css" href="Css/calculadora.css" media="screen" />
-
-
 <?php
 
     if($_POST["num1"]!= null && $_POST["num2"] != null){
