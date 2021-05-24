@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int loop();
-
 int main(){
     int op;
     float num1, num2;
@@ -51,26 +49,4 @@ int main(){
             main();
         break;
     }
-}
-
-int loop(){
-    int desejo;
-    
-    cout << "Você deseja: 1- Parar por aqui // 2- Fazer outro cálculo" << endl; //Reutilizar ou não
-    cin >> desejo;
-            
-    switch(desejo){
-        case 1:
-		    cout << "Tudo bem, até mais!";
-        break;
-                
-        case 2:
-            main();
-        break;
-
-        default:
-            cout << "Opção não encontrada!";
-        break;
-    }
-    return desejo;
 }
